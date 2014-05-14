@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Get rid of .large",
+    "version": "0.1",
+    "description": "A extension for getting rid of .large while downloading large image from Twitter.",
+    "author": "JamesW",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+
+    "permissions": [
+        "*://pbs.twimg.com/*",
+        "downloads"
+    ]
+}
